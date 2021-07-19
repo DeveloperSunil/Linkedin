@@ -1,0 +1,61 @@
+.nav-link, .navbar-brand {
+  color: white !important;
+}
+
+nav {
+  background: #0568c0;
+  color: white;
+}
+
+nav .form {
+  position: relative;
+  width: 70%;
+}
+
+nav .form .search-icon {
+  position: absolute;
+  font-size: 25px;
+  top: 7px;
+  left: 20px;
+}
+
+nav .form .input-box {
+  background: #3b85cf;
+  border: none;
+}
+
+nav .form ::-webkit-input-placeholder {
+  color: white !important;
+  padding-left: 50px;
+}
+
+nav .form :-ms-input-placeholder {
+  color: white !important;
+  padding-left: 50px;
+}
+
+nav .form ::-ms-input-placeholder {
+  color: white !important;
+  padding-left: 50px;
+}
+
+nav .form ::placeholder {
+  color: white !important;
+  padding-left: 50px;
+}
+
+nav .messagge-icon {
+  width: 20px;
+  height: 20px;
+}
+
+nav .profile-icon {
+  width: 35px;
+  height: 35px;
+}
+
+nav .button {
+  background: #fec624;
+  font-size: 10px;
+}
+/*# sourceMappingURL=header.css.map */

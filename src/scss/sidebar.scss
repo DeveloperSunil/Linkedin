@@ -1,0 +1,91 @@
+.sidebar{
+    border-radius: 5px;
+    background:transparent;
+    width:32%;
+    height:auto;
+    float:right;
+    & .page-card-container{
+        background:white;
+        padding:15px 20px;
+        border-radius: 5px;
+        & h6{
+            color:#1a1a1a;
+        }
+    }
+    & .page-card{
+        width:100%;
+        display:flex;
+        align-items:center;
+        margin-top:10px;
+        & .page-card-left{
+            width:80%;
+            display:flex;
+            justify-content:space-evenly;
+            & .page-card-logo{
+                width:60px;
+                height:60px;
+                border-radius:50%;
+            }
+            & .page-card-content{
+                & div{
+                    padding-top:5px;
+                }
+                & p{
+                    font-size: 12px;
+                    color:#00000099;
+                    & .dot-icon{
+                        font-size:8px;
+                        line-height:12px;
+                        color:rgba(0,0,0,0.5);
+                    }
+                }
+            }
+        }
+        & .page-card-right{
+            & .eye-icon{
+                color:#3b85cf;
+            }
+        }
+
+    }
+
+    & .sidebar-footer {
+        border-radius: 5px;
+        & .sidebar-footer-item{
+            display:flex;
+            align-items:center;
+            padding-top:10px;
+            justify-content:end;
+            padding-left:20px;
+            & div{
+                margin-right: 25px;
+            }
+            
+        }
+    }
+    & .groove-border{
+        border-top: 1px solid rgba(0,0,0,0.1);
+        width: 90%;
+        margin: auto;
+    }
+    & .main-footer{
+        width: 100%;
+        padding: 25px 15px;
+        height: auto;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        & div{
+            width: 50%;
+            text-align: right;
+            & img{
+                width: 75px;
+                height: 30px;
+                text-align: left;
+                display: block;
+            }
+        }
+    }
+}
+

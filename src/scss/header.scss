@@ -1,0 +1,59 @@
+$bg-color:#0568c0;
+
+$input-color:#3b85cf;
+
+$button-color:#fec624;
+
+$text-color:#262626;
+.nav-link, .navbar-brand{
+    color: white!important;
+}
+nav{
+    background:$bg-color;
+    color: white;
+ 
+    & .form{
+        position: relative;
+        width: 64% ;
+        & .search-icon{
+            position:absolute;
+            font-size:25px;
+            top: 7px;
+            left: 20px;
+        }
+
+        & .input-box{
+            background:$input-color;
+            border:none;
+        }
+
+        ::placeholder{
+            color: white!important;
+            padding-left: 50px;
+        }
+    
+    }
+    
+    & .messagge-icon{
+        width:20px;
+        height:20px;
+    }
+
+    & .profile-icon{
+        width:30px;
+        height:30px;
+        border-radius: 2px;
+    }
+  
+
+    & .button{
+        background:$button-color;
+        font-size:16px;
+        font-weight: 500;
+        color: rgba(0,0,0,0.7)!important;
+        padding:10px 30px;
+    }
+   
+
+    
+}
